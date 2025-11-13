@@ -116,10 +116,10 @@ Public Class FormCookies
             
             If drinkId > 0 Then
                 ' Use new pairing system based on drink ID
-                databaseResult = DatabaseManagerSimple.GetCookieRecommendationsByDrinkId(drinkId)
+                databaseResult = DatabaseManager.GetCookieRecommendationsByDrinkId(drinkId)
             Else
                 ' Fallback to showing all cookies jika tidak ada pairing
-                databaseResult = DatabaseManagerSimple.LoadCookiesData()
+                databaseResult = DatabaseManager.LoadCookiesData()
                 ' Transform to expected format with default values
                 Dim fallbackTable As New DataTable()
                 fallbackTable.Columns.Add("id", GetType(Integer))
@@ -158,8 +158,8 @@ Public Class FormCookies
     End Sub
     
     Private Sub LoadFallbackCookies()
-        ' Fallback: load all cookies from DatabaseManagerSimple
-        cookiesTable = DatabaseManagerSimple.LoadCookiesData()
+        ' Fallback: load all cookies from DatabaseManager
+        cookiesTable = DatabaseManager.LoadCookiesData()
     End Sub
     
     Private Sub DisplayCookies()
@@ -200,7 +200,7 @@ Public Class FormCookies
             
             ' *** CARA MENAMBAHKAN GAMBAR COOKIES ***
             ' 1. Letakkan file gambar (.jpg, .png) di folder 'perfect_pair' 
-            ' 2. Pastikan nama file sesuai dengan yang ada di DatabaseManagerSimple.vb
+            ' 2. Pastikan nama file sesuai dengan yang ada di DatabaseManager.vb
             ' 3. Contoh: chocolate_chip.jpg, oatmeal.jpg, biscotti.jpg
             
             ' Load image from perfect_pair folder

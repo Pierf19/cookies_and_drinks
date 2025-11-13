@@ -84,8 +84,8 @@ Public Class FormDrinks
     
     Private Sub LoadDrinksData()
         Try
-            ' Load drinks data using DatabaseManagerSimple
-            drinksTable = DatabaseManagerSimple.LoadDrinksData()
+            ' Load drinks data using DatabaseManager
+            drinksTable = DatabaseManager.LoadDrinksData()
             
             If drinksTable IsNot Nothing AndAlso drinksTable.Rows.Count > 0 Then
                 DisplayDrinks()
@@ -102,7 +102,7 @@ Public Class FormDrinks
     End Sub
     
     Private Sub LoadFallbackData()
-        ' Fallback sample data if database is not available - use same structure as DatabaseManagerSimple
+        ' Fallback sample data if database is not available - use same structure as DatabaseManager
         drinksTable = New DataTable()
         drinksTable.Columns.Add("id", GetType(Integer))
         drinksTable.Columns.Add("name", GetType(String))
@@ -168,7 +168,7 @@ Public Class FormDrinks
             
             ' *** CARA MENAMBAHKAN GAMBAR ***
             ' 1. Letakkan file gambar (.jpg, .png) di folder 'perfect_pair' 
-            ' 2. Pastikan nama file sesuai dengan yang ada di DatabaseManagerSimple.vb
+            ' 2. Pastikan nama file sesuai dengan yang ada di DatabaseManager.vb
             ' 3. Contoh: cappuccino.jpg, latte.jpg, espresso.jpg
             
             ' Load image from perfect_pair folder

@@ -107,7 +107,6 @@
     </Compile>
 
     <Compile Include="GlobalVariables.vb" />
-    <Compile Include="DatabaseManagerSimple.vb" />
     <Compile Include="DatabaseManager.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
