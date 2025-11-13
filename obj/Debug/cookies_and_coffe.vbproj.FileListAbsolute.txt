@@ -1,0 +1,17 @@
+C:\Users\legio\source\repos\cookies_and_coffe\cookies_and_coffe\bin\Debug\cookies_and_coffe.exe.config
+C:\Users\legio\source\repos\cookies_and_coffe\cookies_and_coffe\bin\Debug\cookies_and_coffe.exe
+C:\Users\legio\source\repos\cookies_and_coffe\cookies_and_coffe\obj\Debug\cookies_and_coffe.Form1.resources
+C:\Users\legio\source\repos\cookies_and_coffe\cookies_and_coffe\obj\Debug\cookies_and_coffe.Resources.resources
+C:\Users\legio\source\repos\cookies_and_coffe\cookies_and_coffe\obj\Debug\cookies_and_coffe.vbproj.GenerateResource.Cache
+C:\Users\legio\source\repos\cookies_and_coffe\cookies_and_coffe\obj\Debug\cookies_and_coffe.exe
+C:\Users\legio\source\repos\cookies_and_coffe\cookies_and_coffe\obj\Debug\cookies_and_coffe.xml
+C:\Users\legio\source\repos\cookies_and_coffe\cookies_and_coffe\obj\Debug\cookies_and_coffe.pdb
+C:\Users\legio\source\repos\cookies_and_coffe\cookies_and_coffe\bin\Debug\cookies_and_coffe.pdb
+C:\Users\legio\source\repos\cookies_and_coffe\cookies_and_coffe\bin\Debug\cookies_and_coffe.xml
+C:\Users\legio\source\repos\cookies_and_coffe\cookies_and_coffe\bin\Debug\System.Memory.dll
+C:\Users\legio\source\repos\cookies_and_coffe\cookies_and_coffe\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\legio\source\repos\cookies_and_coffe\cookies_and_coffe\bin\Debug\System.Buffers.dll
+C:\Users\legio\source\repos\cookies_and_coffe\cookies_and_coffe\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\legio\source\repos\cookies_and_coffe\cookies_and_coffe\obj\Debug\cookies_and_coffe.vbproj.AssemblyReference.cache
+C:\Users\legio\source\repos\cookies_and_coffe\cookies_and_coffe\obj\Debug\cookies_and_coffe.vbproj.CoreCompileInputs.cache
+C:\Users\legio\source\repos\cookies_and_coffe\cookies_and_coffe\obj\Debug\cookies_.B9ED76E8.Up2Date
